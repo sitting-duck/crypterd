@@ -5,6 +5,7 @@ Babby's first cipher.
 The ouput will look something like: 
 
 Input String to Encrypt: we the people in order to form a more perfect union
+
 ----- RESULTS -----
 original   ciphered       remainder
 weth       32142917       1496844851918       

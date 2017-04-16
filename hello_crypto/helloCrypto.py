@@ -17,6 +17,7 @@ def get_remainder(input):
   temp = int(math.floor(prime_num/input))
   return temp
 
+# PROGRAM ENTRY ---------------------------------------------------------
 message1 = "we the people in order to form a more perfect union"
 print "Input String to Encrypt: " + message1
 message1 = message1.replace(" ","")

@@ -22,9 +22,8 @@ Input String to Encrypt: we the people in order to form a more perfect union
 |unio       |30231824       |1591467317257       |       
 |n          |23             |2091867819003567360 |
 
-The first row prints out the input string.
 
-The First column of RESULTS data is the input string removed of spaces, and broken into 4 character tokens.
+The First column is the input string removed of spaces, and broken into 4 character tokens.
 
 The 2nd column is the result of ciphering each 4 character token with a basic ceasar cipher.
 

@@ -21,9 +21,9 @@ def get_remainder(input):
 message1 = "we the people in order to form a more perfect union"
 print "Input String to Encrypt: " + message1
 message1 = message1.replace(" ","")
-token_list = []
-enciphered_list = []
-remainder_token_list = []
+token_list = [] # will be populated with 4 character tokens from the input string
+enciphered_list = [] # will be populated with 8 digit number tokens. These tokens are the ouput tokens of the ceasar cipher, which takes the 4 character tokens in the previous array
+remainder_token_list = [] # will be populated with the results of enciphered digit tokens modded with a 20 digit prime number
 for i in range(0, int(math.floor(len(message1)/4)+1)):
   current_token = message1[0:4]
   token_list.append(current_token)
